@@ -1,3 +1,8 @@
+import Navbar from "../../components/PageHome/Home_comp/Navbar";
 export default function Cours() {
-  return <div></div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }

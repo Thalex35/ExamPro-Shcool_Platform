@@ -1,3 +1,9 @@
+import Navbar from "../../components/PageHome/Home_comp/Navbar";
+
 export default function Matiere() {
-  return <div></div>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
