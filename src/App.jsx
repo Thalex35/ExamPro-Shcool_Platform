@@ -11,14 +11,14 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        Matiere
         <Route path="/" element={<Home />} />
-        <Route path="/" element={<Cours />} />
-        <Route path="/" element={<Examen />} />
-        <Route path="/" element={<Login />} />
-        <Route path="/" element={<Matiere />} />
-        <Route path="/" element={<Progression />} />
-        <Route path="/" element={<Ressources />} />
+        <Route path="/Cours" element={<Cours />} />
+        <Route path="/Examen" element={<Examen />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/Matiere" element={<Matiere />} />
+        <Route path="/Progression" element={<Progression />} />
+        <Route path="/Ressources" element={<Ressources />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
